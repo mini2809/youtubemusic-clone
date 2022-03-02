@@ -63,7 +63,7 @@ export function Card(){
         <div className="cardContainer">
             {songDetails.map((song)=>(
                 <div id={song.id} >
-                    <div className="imageSection"> <img alt="song image" src={song.img} className="imageDimension" /></div>
+                    <div className="imageSection"> <img alt={song.id} src={song.img} className="imageDimension" /></div>
                     <div className="descriptionSection">
                         <div className="songName">{song.name}</div>
                         <div className='artist'>Song <div className="whiteDot"></div>{song.artist}</div>
