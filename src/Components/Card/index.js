@@ -58,12 +58,12 @@ export function Card(){
     return(
     <div className='cardWrapper'>
         <div className='arrow backward' id="arrow-backward" >
-            <img src={back} className="arrow-dimension" />
+            <img alt="backward-arrow" src={back} className="arrow-dimension" />
         </div>
         <div className="cardContainer">
             {songDetails.map((song)=>(
                 <div id={song.id} >
-                    <div className="imageSection"> <img src={song.img} className="imageDimension" /></div>
+                    <div className="imageSection"> <img alt="song image" src={song.img} className="imageDimension" /></div>
                     <div className="descriptionSection">
                         <div className="songName">{song.name}</div>
                         <div className='artist'>Song <div className="whiteDot"></div>{song.artist}</div>
@@ -72,7 +72,7 @@ export function Card(){
         ))}
         </div>
         <div className='arrow forward' >
-            <img src={forward} className="arrow-dimension" onClick={ ()=>handleForwardArrow()}/>
+            <img alt="forward-arrow" src={forward} className="arrow-dimension" onClick={ ()=>handleForwardArrow()}/>
         </div>
     </div>)
 }

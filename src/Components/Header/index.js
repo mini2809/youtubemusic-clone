@@ -9,7 +9,7 @@ export function Header(){
     return (<div>
         <div className='headerContainer'>
             <div className="logo">
-                <img className='avatar' src={logo}/>
+                <img alt="logo" className='avatar' src={logo}/>
                 <div className="label">Music</div>
             </div>
             <div className='nav' id="nav">
@@ -20,10 +20,10 @@ export function Header(){
             </div>
             <div className='avatarDiv'>
             <div className='avatarWrapper'>
-                    <img className="avatar" src={network}/>
+                    <img alt="avatar" className="avatar" src={network}/>
                 </div>
                 <div className='avatarWrapper'>
-                    <img className="avatar" src={avatar}/>
+                    <img  alt="avatar" className="avatar" src={avatar}/>
                 </div>
             </div>
         </div>
@@ -43,12 +43,14 @@ function displaySearchArea(){
     searchinput.placeholder = "Search";
     let img =document.createElement("img");
     img.src = arrow;
+    img.alt="arrow";
     img.classList.add('arrow-img');
     img.onclick = ()=>hideSearchArea(oldSearch);
     searchWrapper.appendChild(img);
     searchWrapper.appendChild(searchinput);
     let crossImg = document.createElement("img");
     crossImg.src = cross;
+    crossImg.alt="arrow";
     crossImg.classList.add('arrow-img');
     crossImg.onclick = ()=>cleanSearchArea(oldSearch);
     searchWrapper.appendChild(crossImg);
