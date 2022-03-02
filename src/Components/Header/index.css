@@ -22,3 +22,53 @@
     display:flex;
     gap: 2px;
 }
+#home:hover{
+    color: white;
+    cursor: pointer;
+}
+#explore:hover{
+    color: white;
+    cursor: pointer;
+}
+#library:hover{
+    color: white;
+    cursor: pointer;
+}
+#search:hover{
+    color: white;
+    cursor: pointer;
+}
+#searchinput{
+    background-color: #212121;
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    color: darkgray;
+    border-style: none;
+    border: darkgray;
+}
+::placeholder {
+    padding:5px;
+    color:darkgray;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=text]{
+    font-size: 20px;
+}
+input:focus{
+    outline-style:none;
+}
+
+.searchWrapper{
+    background-color: #212121;
+    display:flex;
+    border: darkgray;
+    padding: 0 8px;
+    align-items: center;
+}
+.arrow-img{
+    height:26px;
+    cursor: pointer;
+}
+

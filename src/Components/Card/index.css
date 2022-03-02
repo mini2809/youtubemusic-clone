@@ -1,12 +1,21 @@
+.cardWrapper{
+    display: flex;
+    position: relative;
+}
 .cardContainer{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 30px;
     margin-bottom:100px;
+}
+.cardContainer::-webkit-scrollbar{
+    display: none;
 }
 
 .imageDimension{
     width:200px;
+    height:200px;
     border-radius: 5px;
 }
 .descriptionSection{
@@ -25,6 +34,37 @@
 }
 .artist{
     display:flex;
-    align-items: center;
     font-size: 14px;
+}
+.arrow{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.forward{
+    position: absolute;
+    right: -22px;
+    top: 70px;
+}
+.backward{
+    position: absolute;
+    top: 70px;
+    left: -20px;
+    visibility: hidden;
+}
+.arrow-dimension{
+    height: 20px;
+    width: 20px;
+}
+.imageSection{
+    opacity: 1;
+
+}
+.imageSection:hover{
+opacity:0.3;
 }
