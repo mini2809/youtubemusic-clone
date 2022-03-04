@@ -61,7 +61,7 @@ export function Carousel(props){
     return(
         <div className='cardWrapper'>
             
-            <div className='arrow backward' id={props.id+"-"+"arrow-backward"} onClick={()=>handleBackwardArrow(props.id)}>
+            <div className='arrow backward' id={props.id+"arrow-backward"} onClick={()=>handleBackwardArrow(props.id)}>
                 <img alt="backward-arrow" src={back} className="arrow-dimension"  />
             </div>
             <div className="cardContainer">
@@ -69,7 +69,7 @@ export function Carousel(props){
                    <Card id={props.id + song.id} name={song.name} artist={song.artist} img={song.img}/>
                 ))}
             </div>
-            <div className='arrow forward' id={props.id+"-"+"arrow-forward"} onClick={ ()=>handleForwardArrow(props.id)} >
+            <div className='arrow forward' id={props.id+"arrow-forward"} onClick={ ()=>handleForwardArrow(props.id)} >
                 <img alt="forward-arrow" src={forward} className="arrow-dimension" />
             </div>
            
@@ -91,24 +91,24 @@ function calculateDynamicRangeBasedonViewPort(){
 
 
 function handleForwardArrow(id){
-    document.getElementById(id+"-"+'arrow-backward').style.visibility = "visible";
+    document.getElementById(id+'arrow-backward').style.visibility = "visible";
     lastId = lastId+range;
     let domLastId =id+lastId;
     if(lastId > songDetails.length){
         domLastId=songDetails.length;
         domLastId =id+domLastId
-        document.getElementById(id+"-"+'arrow-forward').style.visibility = "hidden";
+        document.getElementById(id+'arrow-forward').style.visibility = "hidden";
     }
         document.getElementById(`${domLastId}`).scrollIntoView({'block':'nearest',behavior: "smooth"});
     
 }
 function handleBackwardArrow(id){
-    document.getElementById(id+"-"+'arrow-forward').style.visibility = "visible";
+    document.getElementById(id+'arrow-forward').style.visibility = "visible";
     lastId = lastId-range;
     let domLastId  = id+lastId;
     if(lastId < 1){
         domLastId=id+1;
-        document.getElementById(id+"-"+'arrow-backward').style.visibility = "hidden";
+        document.getElementById(id+'arrow-backward').style.visibility = "hidden";
     }
         document.getElementById(`${domLastId}`).scrollIntoView({'block':'nearest',behavior: "smooth"});
     
