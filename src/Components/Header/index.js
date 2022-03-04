@@ -64,6 +64,5 @@ function hideSearchArea(oldSearch){
     document.getElementById("searchWrapper").replaceWith(oldSearch);
 }
 function cleanSearchArea(){
-    console.log("cleaned area called");
-document.getElementById("searchinput").value ="";
+    document.getElementById("searchinput").value ="";
 }
