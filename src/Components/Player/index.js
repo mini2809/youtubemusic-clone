@@ -4,6 +4,8 @@ import backward from '../../public/backward.png';
 import play from '../../public/play.png';
 import pause from '../../public/pause.png';
 import volumeIcon from '../../public/volume.png';
+import muteVolume from '../../public/mute-volume.png';
+
 import { useState,useEffect } from "react";
 
 let track_list = [
@@ -66,7 +68,7 @@ export function Player(props){
                 </div>
             </div>
             <div id="volume-slider">
-                <img src={volumeIcon} alt="volume"  className="voulmeIcon"/>
+                <img src={volumeIcon} alt="volume" id="volumeIcon" className="voulmeIcon"/>
                 <input type="range" id="volume-slider" className="slider" value={volume} min="1" max="100" onChange={(e)=>handleVolumeSlider(e,setVolumeSlider)}/>  
             </div>
         </div>
@@ -96,10 +98,15 @@ function handlePlayPause(){
 function handlePlayerSlider(e,setPlayerSlider){
     console.log(e.target.value);
     setPlayerSlider(e.target.value);
-    console.log(curr_track.duration);
 }
 
 function handleVolumeSlider(e,setVolumeSlider){
+    let element =  document.getElementById("volumeIcon");
+    if(e.target.value  == 1){
+        element.src=muteVolume;
+    }else{
+        element.src=volumeIcon; 
+    }
     setVolumeSlider(e.target.value);
     curr_track.volume = e.target.value/100;
 }
