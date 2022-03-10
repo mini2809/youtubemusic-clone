@@ -83,7 +83,7 @@ function loadTrack(curr_track_id){
 
 function handlePlayPause(){
     let element = document.getElementById('playpause');
-    if(isPlaying == true){
+    if(isPlaying === true){
         curr_track.pause();
         isPlaying = false;
         element.src=pause;
@@ -102,7 +102,7 @@ function handlePlayerSlider(e,setPlayerSlider){
 
 function handleVolumeSlider(e,setVolumeSlider){
     let element =  document.getElementById("volumeIcon");
-    if(e.target.value  == 1){
+    if(e.target.value  === 1){
         element.src=muteVolume;
     }else{
         element.src=volumeIcon; 
