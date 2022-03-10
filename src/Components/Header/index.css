@@ -13,6 +13,7 @@
 }
 .avatar{
     height:28px;
+    cursor:pointer;
 }
 .avatarDiv{
     display:flex;

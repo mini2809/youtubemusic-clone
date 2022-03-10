@@ -1,6 +1,7 @@
 import './App.css';
 import {Header} from './Components/Header';
 import {Block} from './Components/Block';
+import { Player } from './Components/Player';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      <div className="blockbody">
         <Block />
      </div>
+      <Player />
     </div>
   );
 }
