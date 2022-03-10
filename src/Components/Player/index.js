@@ -102,7 +102,7 @@ function handlePlayerSlider(e,setPlayerSlider){
 
 function handleVolumeSlider(e,setVolumeSlider){
     let element =  document.getElementById("volumeIcon");
-    if(e.target.value  === 1){
+    if(e.target.value  === "1"){
         element.src=muteVolume;
     }else{
         element.src=volumeIcon; 
