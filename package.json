@@ -2,7 +2,7 @@
   "name": "youtube-music",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mini2809.github.io/youtube-music-clone/",
+  "homepage": "https://mini2809.github.io/youtubemusic-clone/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
