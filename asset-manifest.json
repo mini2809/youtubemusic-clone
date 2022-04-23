@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/youtubemusic-clone/static/css/main.71231942.css",
-    "main.js": "/youtubemusic-clone/static/js/main.f7ed0c45.js",
-    "static/js/787.0162143f.chunk.js": "/youtubemusic-clone/static/js/787.0162143f.chunk.js",
-    "static/media/tumhiaana.jpg": "/youtubemusic-clone/static/media/tumhiaana.beb225e017a270065299.jpg",
-    "static/media/rangisaari.jpg": "/youtubemusic-clone/static/media/rangisaari.54e75c454bf30787d98d.jpg",
-    "static/media/phirseud.jpg": "/youtubemusic-clone/static/media/phirseud.e79be51868e28c131cb7.jpg",
-    "static/media/kabhitumhe.jpg": "/youtubemusic-clone/static/media/kabhitumhe.db63f6ab7d0ffbde7376.jpg",
-    "static/media/ektukda.jpg": "/youtubemusic-clone/static/media/ektukda.5ea9e586a9ee29896439.jpg",
-    "static/media/choolo.jpg": "/youtubemusic-clone/static/media/choolo.8a436b97a5fee0d9621f.jpg",
-    "static/media/makhna.jpg": "/youtubemusic-clone/static/media/makhna.c4c8d0580f76cf6c8ecc.jpg",
-    "static/media/network.png": "/youtubemusic-clone/static/media/network.b6b964f79a95a233112a.png",
-    "static/media/youtube.png": "/youtubemusic-clone/static/media/youtube.62b460d52fc0f1ec7fd5.png",
-    "static/media/avatar.png": "/youtubemusic-clone/static/media/avatar.8d49e377c7c342895ec2.png",
-    "static/media/gray-close1.png": "/youtubemusic-clone/static/media/gray-close1.dcf94367e9379947f510.png",
-    "static/media/naina.jpg": "/youtubemusic-clone/static/media/naina.8b14a0ea7122360f3f70.jpg",
-    "index.html": "/youtubemusic-clone/index.html",
-    "main.71231942.css.map": "/youtubemusic-clone/static/css/main.71231942.css.map",
-    "main.f7ed0c45.js.map": "/youtubemusic-clone/static/js/main.f7ed0c45.js.map",
-    "787.0162143f.chunk.js.map": "/youtubemusic-clone/static/js/787.0162143f.chunk.js.map"
+    "main.css": "/YouTubeMusic-Clone/static/css/main.71231942.css",
+    "main.js": "/YouTubeMusic-Clone/static/js/main.b6e03902.js",
+    "static/js/787.0162143f.chunk.js": "/YouTubeMusic-Clone/static/js/787.0162143f.chunk.js",
+    "static/media/tumhiaana.jpg": "/YouTubeMusic-Clone/static/media/tumhiaana.beb225e017a270065299.jpg",
+    "static/media/rangisaari.jpg": "/YouTubeMusic-Clone/static/media/rangisaari.54e75c454bf30787d98d.jpg",
+    "static/media/phirseud.jpg": "/YouTubeMusic-Clone/static/media/phirseud.e79be51868e28c131cb7.jpg",
+    "static/media/kabhitumhe.jpg": "/YouTubeMusic-Clone/static/media/kabhitumhe.db63f6ab7d0ffbde7376.jpg",
+    "static/media/ektukda.jpg": "/YouTubeMusic-Clone/static/media/ektukda.5ea9e586a9ee29896439.jpg",
+    "static/media/choolo.jpg": "/YouTubeMusic-Clone/static/media/choolo.8a436b97a5fee0d9621f.jpg",
+    "static/media/makhna.jpg": "/YouTubeMusic-Clone/static/media/makhna.c4c8d0580f76cf6c8ecc.jpg",
+    "static/media/network.png": "/YouTubeMusic-Clone/static/media/network.b6b964f79a95a233112a.png",
+    "static/media/youtube.png": "/YouTubeMusic-Clone/static/media/youtube.62b460d52fc0f1ec7fd5.png",
+    "static/media/avatar.png": "/YouTubeMusic-Clone/static/media/avatar.8d49e377c7c342895ec2.png",
+    "static/media/gray-close1.png": "/YouTubeMusic-Clone/static/media/gray-close1.dcf94367e9379947f510.png",
+    "static/media/naina.jpg": "/YouTubeMusic-Clone/static/media/naina.8b14a0ea7122360f3f70.jpg",
+    "index.html": "/YouTubeMusic-Clone/index.html",
+    "main.71231942.css.map": "/YouTubeMusic-Clone/static/css/main.71231942.css.map",
+    "main.b6e03902.js.map": "/YouTubeMusic-Clone/static/js/main.b6e03902.js.map",
+    "787.0162143f.chunk.js.map": "/YouTubeMusic-Clone/static/js/787.0162143f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71231942.css",
-    "static/js/main.f7ed0c45.js"
+    "static/js/main.b6e03902.js"
   ]
 }
