@@ -3,56 +3,6 @@ import forward from '../../../public/scroll-forward.png';
 import back from "../../../public/scroll-back.png";
 import React , { useEffect } from 'react';
 
-let songDetails=[
-    { 
-        "id":1,
-        "name":"Kabhi Tumhe",
-        "img":require('../../../public/songs/pic7.jpeg'),
-        "artist":"Javed & Palak Muchhal"
-    },
-    { 
-        "id":2,
-        "name":"Tum Hi Aana",
-        "img":require('../../../public/songs/pic6.jpeg'),
-        "artist":"Jubin Nautiyal"
-    },
-    { 
-        "id":3,
-        "name":"Naina",
-        "img":require('../../../public/songs/pic5.jpeg'),
-        "artist":"Arijit Singh"
-    },
-    { 
-        "id":4,
-        "name":"Phir Se ud Chala",
-        "img":require('../../../public/songs/pic4.jpeg'),
-        "artist":"Mohit Chauhan"
-    },
-    { 
-        "id":5,
-        "name":"EK Tukda",
-        "img":require('../../../public/songs/pic3.jpeg'),
-        "artist":"Javed & Palak Muchhal"
-    },
-    { 
-        "id":6,
-        "name":"Choo lo",
-        "img":require('../../../public/songs/pic2.jpg'),
-        "artist":"The Local Train"
-    },
-    { 
-        "id":7,
-        "name":"Makhna",
-        "img":require('../../../public/songs/pic1.jpeg'),
-        "artist":"Tanishk Bagchi"
-    },
-    { 
-        "id":8,
-        "name":"Charlie",
-        "img":require('../../../public/songs/pic9.jpeg'),
-        "artist":"Kavitha Seth"
-    }
-]
 
 export function Carousel(props){
     useEffect(()=>{
@@ -65,7 +15,7 @@ export function Carousel(props){
                 <img alt="backward-arrow" src={back} className="arrow-dimension"  />
             </div>
             <div className="cardContainer">
-                {songDetails.map((song)=>(
+                {props.songDetails.map((song)=>(
                    <Card id={props.id + song.id} name={song.name} artist={song.artist} img={song.img} setSelectedSong={props.setSelectedSong} setPlayerVisible={props.setPlayerVisible}/>
                 ))}
             </div>
@@ -90,7 +40,7 @@ function calculateDynamicRangeBasedonViewPort(){
 }
 
 
-function handleForwardArrow(id){
+function handleForwardArrow(id, songDetails){
     document.getElementById(id+'arrow-backward').style.visibility = "visible";
     lastId = lastId+range;
     let domLastId =id+lastId;
@@ -102,7 +52,7 @@ function handleForwardArrow(id){
         document.getElementById(`${domLastId}`).scrollIntoView({'block':'nearest',behavior: "smooth"});
     
 }
-function handleBackwardArrow(id){
+function handleBackwardArrow(id, songDetails){
     document.getElementById(id+'arrow-forward').style.visibility = "visible";
     lastId = lastId-range;
     let domLastId  = id+lastId;
