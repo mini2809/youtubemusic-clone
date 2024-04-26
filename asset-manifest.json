@@ -1,21 +1,35 @@
 {
   "files": {
-    "main.css": "/youtubemusic-clone/static/css/main.f62c37bf.css",
-    "main.js": "/youtubemusic-clone/static/js/main.1cdd6c39.js",
+    "main.css": "/youtubemusic-clone/static/css/main.f8f284e1.css",
+    "main.js": "/youtubemusic-clone/static/js/main.49602e3b.js",
     "static/js/453.80a7d9c5.chunk.js": "/youtubemusic-clone/static/js/453.80a7d9c5.chunk.js",
-    "static/media/pic2.jpg": "/youtubemusic-clone/static/media/pic2.070e6a93c1be8c8686bf.jpg",
+    "static/media/4.png": "/youtubemusic-clone/static/media/4.7755e115c907fd7d6f07.png",
+    "static/media/6.png": "/youtubemusic-clone/static/media/6.2533de23eaaffcf58fed.png",
+    "static/media/2.png": "/youtubemusic-clone/static/media/2.46f55959a1772e8d84b9.png",
+    "static/media/16.png": "/youtubemusic-clone/static/media/16.a487cfbd4b074d2b6993.png",
+    "static/media/5.png": "/youtubemusic-clone/static/media/5.082709bbd78e1561c950.png",
+    "static/media/12.png": "/youtubemusic-clone/static/media/12.043a362f596e31886500.png",
+    "static/media/8.png": "/youtubemusic-clone/static/media/8.74c2a487dbec8a9b5a9e.png",
+    "static/media/10.png": "/youtubemusic-clone/static/media/10.a385ce476e29ee22510a.png",
+    "static/media/11.png": "/youtubemusic-clone/static/media/11.1beb91ff2002ce329aa6.png",
+    "static/media/15.png": "/youtubemusic-clone/static/media/15.c1e23601396abc583be4.png",
+    "static/media/9.png": "/youtubemusic-clone/static/media/9.9cb82602e891d9153f94.png",
+    "static/media/3.png": "/youtubemusic-clone/static/media/3.bdc923bebc3700c0d7bb.png",
+    "static/media/14.png": "/youtubemusic-clone/static/media/14.39cdfb2b3248e22a56e4.png",
+    "static/media/13.png": "/youtubemusic-clone/static/media/13.8abcaaae69d37cb99d12.png",
+    "static/media/7.png": "/youtubemusic-clone/static/media/7.90b144f3818d1b45698c.png",
+    "static/media/1.png": "/youtubemusic-clone/static/media/1.763385685e4cb6eabbb4.png",
+    "static/media/17.png": "/youtubemusic-clone/static/media/17.07603d2acb990d644a86.png",
+    "static/media/profile.jpg": "/youtubemusic-clone/static/media/profile.c7d7f74eab3c2331cd2e.jpg",
     "static/media/youtube.png": "/youtubemusic-clone/static/media/youtube.62b460d52fc0f1ec7fd5.png",
-    "static/media/avatar.png": "/youtubemusic-clone/static/media/avatar.8d49e377c7c342895ec2.png",
     "static/media/gray-close1.png": "/youtubemusic-clone/static/media/gray-close1.dcf94367e9379947f510.png",
-    "static/media/pic7.jpeg": "/youtubemusic-clone/static/media/pic7.f94080b60bf50d16f4be.jpeg",
-    "static/media/player.png": "/youtubemusic-clone/static/media/player.e8cb3a090297172328eb.png",
     "index.html": "/youtubemusic-clone/index.html",
-    "main.f62c37bf.css.map": "/youtubemusic-clone/static/css/main.f62c37bf.css.map",
-    "main.1cdd6c39.js.map": "/youtubemusic-clone/static/js/main.1cdd6c39.js.map",
+    "main.f8f284e1.css.map": "/youtubemusic-clone/static/css/main.f8f284e1.css.map",
+    "main.49602e3b.js.map": "/youtubemusic-clone/static/js/main.49602e3b.js.map",
     "453.80a7d9c5.chunk.js.map": "/youtubemusic-clone/static/js/453.80a7d9c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62c37bf.css",
-    "static/js/main.1cdd6c39.js"
+    "static/css/main.f8f284e1.css",
+    "static/js/main.49602e3b.js"
   ]
 }
