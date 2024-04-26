@@ -1,7 +1,7 @@
 import './index.css';
-import avatar from '../../public/avatar.png';
+import avatar from '../../public/profile.jpg';
 import logo from '../../public/youtube.png';
-import player from '../../public/player.png';
+import vector from '../../public/vector2.png';
 import arrow from '../../public/gray-arrow-search.png';
 import cross from '../../public/gray-close1.png';
 
@@ -20,10 +20,10 @@ export function Header(){
             </div>
             <div className='avatarDiv'>
             <div className='avatarWrapper'>
-                    <img alt="avatar" className="avatar" src={player}/>
+                    <img alt="avatar" className="broadcast" src={vector}/>
                 </div>
                 <div className='avatarWrapper'>
-                    <img  alt="avatar" className="avatar" src={avatar}/>
+                    <img alt="avatar" className="avatar" src={avatar}/>
                 </div>
             </div>
         </div>

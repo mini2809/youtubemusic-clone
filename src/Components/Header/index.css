@@ -13,11 +13,18 @@
 }
 .avatar{
     height:28px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.broadcast{
+    height:22px;
     cursor:pointer;
 }
 .avatarDiv{
-    display:flex;
-    gap:10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
 }
 .logo{
     display:flex;
