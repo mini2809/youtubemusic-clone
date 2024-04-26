@@ -7,49 +7,49 @@ let songDetails=[
     { 
         "id":1,
         "name":"Kabhi Tumhe",
-        "img":require('../../../public/songs/kabhitumhe.jpg'),
+        "img":require('../../../public/songs/pic7.jpeg'),
         "artist":"Javed & Palak Muchhal"
     },
     { 
         "id":2,
         "name":"Tum Hi Aana",
-        "img":require('../../../public/songs/tumhiaana.jpg'),
+        "img":require('../../../public/songs/pic6.jpeg'),
         "artist":"Jubin Nautiyal"
     },
     { 
         "id":3,
         "name":"Naina",
-        "img":require('../../../public/songs/naina.jpg'),
+        "img":require('../../../public/songs/pic5.jpeg'),
         "artist":"Arijit Singh"
     },
     { 
         "id":4,
         "name":"Phir Se ud Chala",
-        "img":require('../../../public/songs/phirseud.jpg'),
+        "img":require('../../../public/songs/pic4.jpeg'),
         "artist":"Mohit Chauhan"
     },
     { 
         "id":5,
         "name":"EK Tukda",
-        "img":require('../../../public/songs/ektukda.jpg'),
+        "img":require('../../../public/songs/pic3.jpeg'),
         "artist":"Javed & Palak Muchhal"
     },
     { 
         "id":6,
         "name":"Choo lo",
-        "img":require('../../../public/songs/choolo.jpg'),
+        "img":require('../../../public/songs/pic2.jpg'),
         "artist":"The Local Train"
     },
     { 
         "id":7,
         "name":"Makhna",
-        "img":require('../../../public/songs/makhna.jpg'),
+        "img":require('../../../public/songs/pic1.jpeg'),
         "artist":"Tanishk Bagchi"
     },
     { 
         "id":8,
-        "name":"Rangi Saari",
-        "img":require('../../../public/songs/rangisaari.jpg'),
+        "name":"Charlie",
+        "img":require('../../../public/songs/pic9.jpeg'),
         "artist":"Kavitha Seth"
     }
 ]
@@ -66,7 +66,7 @@ export function Carousel(props){
             </div>
             <div className="cardContainer">
                 {songDetails.map((song)=>(
-                   <Card id={props.id + song.id} name={song.name} artist={song.artist} img={song.img}/>
+                   <Card id={props.id + song.id} name={song.name} artist={song.artist} img={song.img} setSelectedSong={props.setSelectedSong} setPlayerVisible={props.setPlayerVisible}/>
                 ))}
             </div>
             <div className='arrow forward' id={props.id+"arrow-forward"} onClick={ ()=>handleForwardArrow(props.id)} >

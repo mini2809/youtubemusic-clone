@@ -1,5 +1,4 @@
 import './index.css';
-import { Player } from '../Player';
 
 export function Card(props){
     return(
@@ -15,9 +14,8 @@ export function Card(props){
 }
 
 function handleClick(props){
-    console.log(props);
-    let img = props.img;
-    <Player image={img} name={props.name} artist={props.artist} />
+    props.setSelectedSong({name:props.name,image: props.img,artist: props.artist})
+    props.setPlayerVisible(true);
 }
 
 

@@ -1,7 +1,7 @@
 import './index.css';
 import avatar from '../../public/avatar.png';
 import logo from '../../public/youtube.png';
-import network from '../../public/network.png';
+import player from '../../public/player.png';
 import arrow from '../../public/gray-arrow-search.png';
 import cross from '../../public/gray-close1.png';
 
@@ -20,7 +20,7 @@ export function Header(){
             </div>
             <div className='avatarDiv'>
             <div className='avatarWrapper'>
-                    <img alt="avatar" className="avatar" src={network}/>
+                    <img alt="avatar" className="avatar" src={player}/>
                 </div>
                 <div className='avatarWrapper'>
                     <img  alt="avatar" className="avatar" src={avatar}/>

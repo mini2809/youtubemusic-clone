@@ -30,8 +30,9 @@ let track_list = [
   ];
   
 let isPlaying = false;
-let curr_track = null;
 let curr_track_id = 0;
+let curr_track = null;
+
 
 export function Player(props){
     let [value , setPlayerSlider] = useState("0");
@@ -39,8 +40,7 @@ export function Player(props){
 
     useEffect(()=>{
         curr_track = document.createElement("audio");
-        curr_track.src=track_list[curr_track_id].path;
-        curr_track.load();
+        loadTrack(curr_track_id);
     },[])
 
     return(
@@ -61,7 +61,7 @@ export function Player(props){
                 </div>
             </div>
             <div className="songName-description">
-                <div className="imageSection"> <img alt="cover" src={props.image} className="card-imageDimension" /></div>
+               <img alt="cover" src={props.image} className="card-imageDimension" height="30px" width="30px"/>
                 <div className="descriptionSection">
                     <div className="songName">{props.name}</div>
                     <div className='artist'>Song <div className="whiteDot"></div>{props.artist}</div>
@@ -79,6 +79,7 @@ function loadTrack(curr_track_id){
     curr_track.src=track_list[curr_track_id].path;
     curr_track.load();
     curr_track.play();
+    isPlaying= true;
 }
 
 function handlePlayPause(){
@@ -122,8 +123,9 @@ function handleNextTrack(){
 }
 
 function handlePreviousTrack(){
-    if(curr_track_id > 0)
+    if(curr_track_id > 0 )
         curr_track_id=0;
+    else if (curr_track_id == 0) curr_track_id=0;
     else
         curr_track_id = curr_track_id - 1;
     
