@@ -125,7 +125,7 @@ function handleNextTrack(){
 function handlePreviousTrack(){
     if(curr_track_id > 0 )
         curr_track_id=0;
-    else if (curr_track_id == 0) curr_track_id=0;
+    else if (curr_track_id === 0) curr_track_id=0;
     else
         curr_track_id = curr_track_id - 1;
     
