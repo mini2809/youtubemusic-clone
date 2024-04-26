@@ -1,10 +1,9 @@
-/* eslint-disable import/prefer-default-export */
 /* eslint-disable linebreak-style */
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-filename-extension */
-/* eslint-disable linebreak-style */
 /* eslint-disable global-require */
 import './index.css';
 import { Carousel } from './Carousel';
